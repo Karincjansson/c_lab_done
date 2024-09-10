@@ -1,0 +1,9 @@
+Enter value for a ,b and c
+there is no root
+the value of x is: 2.24059e-38
+there is no root
+the value of x is: 2.24059e-38
+there is no root
+the value of x is: 2.24059e-38
+there is no root
+the value of x is: 2.24059e-38

@@ -9,7 +9,7 @@
 
 int main()
 {
-	float a = 0, b = 0, c = 0, x = 0;
+	
 	//övning 3
 
 
@@ -37,9 +37,34 @@ int main()
 
 	std::string answer;
 
-
+	float a, b , c , x ;
 
 	std::cout << "Enter value for a ,b and c" << std::endl;
+	/*while(std::cin >>a>>b>>c)
+	{
+		float root1, root2; int rootCount;
+		Poly2 poly(a, b, c);
+		poly.findRoot(root1, root2, rootCount);
+		if(rootCount=0)
+		{
+			std::cout << "there is no root" << std::endl;
+		}
+		else if(rootCount=1)
+		{
+			std::cout << "the value of x is: " << root1 << std::endl;
+		}
+		else if (rootCount=2)
+		{
+			std::cout << "the value of the first x is: " << root1 << std::endl;
+			std::cout << "the value of the second x is: " << root2 << std::endl;
+		}
+		else 
+		{
+			std::cout << "toops something went wrong" << std::endl;
+		}
+	}*/
+
+
 	while(std::cin >> a >> b >> c)
 	{
 		
@@ -52,12 +77,12 @@ int main()
 		{
 			std::cout << "there is no root" << std::endl;
 		}
-		if(rootNr==1)
+		else if(rootNr==1)
 		{
 			std::cout << "there is 1 x" << std::endl;
 			std::cout << "the value of x is: " << root1 << std::endl;
 		}
-		if(rootNr==2)
+		else if(rootNr==2)
 		{
 			std::cout << "there is 2 x" << std::endl;
 			std::cout << "the value of the first x is: " << root1 << std::endl;
@@ -77,13 +102,3 @@ int main()
 	return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

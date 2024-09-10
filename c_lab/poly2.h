@@ -16,6 +16,8 @@ public:
      */
     float eval(float x);
 
+    void findRoot(float root1,float root2, int rootCount);
+   
     /*
      * Find roots, i.e. x when y(x) = 0
      */
