@@ -18,7 +18,7 @@ float Poly2::eval(float x)
     return y;    
    
 }
-void Poly2::findRoot(float root1, float root2, int rootCount)
+void Poly2::findRoot(float& root1, float& root2, int& rootCount)
 {
     float d = pow(b, 2) - (4 * a * c);
    
@@ -29,16 +29,16 @@ void Poly2::findRoot(float root1, float root2, int rootCount)
     }
     if (d==0)
     {
-        root1 = ((-b) + sqrt(d)) / (2 * a);
-        std::cout << "there is 1 x" << std::endl;
+        root1 = (-b) / (2 * a);
+       // std::cout << "there is 1 x" << std::endl;
         rootCount = 1;
 
     }
     if(d>0)
     {
-        float root1 = ((-b) + sqrt(d)) / (2 * a);
-        float root2 = ((-b) - sqrt(d)) / (2 * a);
-        std::cout << "there is 2 x" << std::endl;
+        float root1 = (-b + sqrt(d)) / (2 * a);
+        float root2 = (-b - sqrt(d)) / (2 * a);
+       // std::cout << "there is 2 x" << std::endl;
         rootCount = 2;
     }
 }

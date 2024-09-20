@@ -37,12 +37,15 @@ int main()
 
 	std::string answer;
 
-	float a, b , c , x ;
-
-	std::cout << "Enter value for a ,b and c" << std::endl;
-	/*while(std::cin >>a>>b>>c)
+	float a, b, c, x;
+	/*float a = 1;
+	float b = 2;
+	float c = 1*/;
+	//std::cout << "Enter value for a ,b and c" << std::endl;
+	while(std::cin >>a>>b>>c)
 	{
-		float root1, root2; int rootCount;
+		float root1, root2; 
+		int rootCount;
 		Poly2 poly(a, b, c);
 		poly.findRoot(root1, root2, rootCount);
 		if(rootCount=0)
@@ -51,21 +54,23 @@ int main()
 		}
 		else if(rootCount=1)
 		{
+			std::cout << "there is 1 x" << std::endl;
 			std::cout << "the value of x is: " << root1 << std::endl;
 		}
 		else if (rootCount=2)
 		{
+			std::cout << "there is 2 x" << std::endl;
 			std::cout << "the value of the first x is: " << root1 << std::endl;
 			std::cout << "the value of the second x is: " << root2 << std::endl;
 		}
 		else 
 		{
-			std::cout << "toops something went wrong" << std::endl;
+			std::cout << "oops something went wrong" << std::endl;
 		}
-	}*/
+	}
 
 
-	while(std::cin >> a >> b >> c)
+	/*while(std::cin >> a >> b >> c)
 	{
 		
 		float root1, root2;
@@ -92,10 +97,12 @@ int main()
 		std::cin >> x;
 		float y;
 		y = poly.eval(x);
-		std::cout << "the value of y if x is " << x << " is " << y << std::endl;
-
+		std::cout << "the value of y, if x is " << x << ", is " << y << std::endl;
+		std::cout << "\n";
+		std::cout << "_____________________________________________________\n";
+		std::cout << "\n";
 		std::cout << "Try Again. Enter value for a ,b and c" << std::endl;
-	}
+	}*/
 
 	
 
