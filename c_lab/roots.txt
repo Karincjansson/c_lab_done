@@ -1,9 +1,11 @@
-Enter value for a ,b and c
-there is no root
-the value of x is: 2.24059e-38
-there is no root
-the value of x is: 2.24059e-38
-there is no root
-the value of x is: 2.24059e-38
-there is no root
-the value of x is: 2.24059e-38
+Two real roots: -1.07374e+08 and -1.07374e+08
+Value of polynomial at root1: 1.15292e+16
+Value of polynomial at root2: 1.15292e+16
+Two real roots: -1.07374e+08 and -1.07374e+08
+Value of polynomial at root1: 1.15292e+16
+Value of polynomial at root2: 1.15292e+16
+One real root: -2
+Value of polynomial at root: 0
+Two real roots: -2 and -1.07374e+08
+Value of polynomial at root1: 38
+Value of polynomial at root2: 4.61169e+16
