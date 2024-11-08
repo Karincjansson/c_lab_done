@@ -9,6 +9,7 @@
 
 int main()
 {
+	//std::cout << "Hello world" << std::endl;
 	
 	//övning 3
 
@@ -16,9 +17,9 @@ int main()
 	//imparameterar
 	/*std::string name;
 	std::cout << " What is your name?: ";
-	std::getline(std::cin, name);*/
+	std::getline(std::cin, name);
 
-	//std::cout << "hello " << name << ", welcome!" << std::endl;
+	std::cout << "hello " << name << ", welcome!" << std::endl;*/
 
 	// övning 4: Kalkylator
 
@@ -35,13 +36,32 @@ int main()
 
 	//övning 8
 
-	std::string answer;
+	float root1, root2;
+	int rootCount;
+	float a, b, c, x;
+
+	a = 1;
+	b = 2;
+	c = 1;
+	Poly2 poly(a, b, c);
+	poly.findRoot(root1,root2,rootCount);
+	std::cout << std::endl;
+	a = 2; b = 3; c = 9;
+
+	Poly2 poly1(a, b, c);
+    poly1.findRoot(root1, root2, rootCount);
+	std::cout<<std::endl;
+
+	a = 1; b = -5; c = 6;
+	Poly2 poly2(a, b, c);
+	poly2.findRoot(root1, root2, rootCount);
+	std::cout << std::endl;
+//övning 9
+	/*std::string answer;
 
 	float a, b, c, x;
-	/*float a = 1;
-	float b = 2;
-	float c = 1*/;
-	//std::cout << "Enter value for a ,b and c" << std::endl;
+	
+	std::cout << "Enter value for a ,b and c" << std::endl;
 	while(std::cin >>a>>b>>c)
 	{
 		float root1, root2; 
@@ -67,7 +87,7 @@ int main()
 		{
 			std::cout << "oops something went wrong" << std::endl;
 		}
-	}
+	}*/
 
 
 	/*while(std::cin >> a >> b >> c)

@@ -1,0 +1,1 @@
+choose a number, if you press a character that is not a number the program vill return the sum : the sum is : 86
